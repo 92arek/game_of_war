@@ -20,7 +20,7 @@ public class PortalTheGame {
         portals.add(second);
         portals.add(third);
 
-        System.out.println("Yoy have to shut down 3 puny web portals:");
+        System.out.println("On a 7x7 board, you have to shut down 3 puny web portals:");
         System.out.println("msn.com, google.com and facebook.com");
         System.out.println("Try to do it using as little moves as possible. Good luck!");
 
@@ -57,7 +57,7 @@ public class PortalTheGame {
     }
 
     private void endGame() {
-        System.out.println("You've shut down all those annoying portals!");
+        System.out.println("You've shut down all of those annoying portals!");
 
         if (numberOfMoves <= 18) {
             System.out.println("You've made only " + numberOfMoves + " moves! Someone going places, eh?");
